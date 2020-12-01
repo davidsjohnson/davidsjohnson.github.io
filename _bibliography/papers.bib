@@ -1,70 +1,112 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{johnson2020.crowdre,
+  abbr={CrowdRE},
+  title={Open CrowdRE Challenges in Software Ecosystems},
+  abstract={ CrowdRE has been argued to comprise four main activities: motivating Crowd members; eliciting feedback; analysing feedback and monitoring context and usage data.  However, determining requirements for software ecosystems poses demands beyond those found by a single product owner. CrowdRE has particular challenges in handling the many, competing and heterogenous sources of RE relevant data in a software ecosystem.  In this paper we pose these challenges against the background of Xero – a global accounting software company - as an ecosystem provider and Figured - a developer of a farming industry application - one of Xero's ecosystem consumers. },
+  author={D. {Johnson} and J. {Tizard} and D. {Damian} and K. {Blincoe} and T. {Clear}},
+  booktitle = {International Workshop on Crowd-Based Requirements Engineering (CrowdRE)},
+  year={2020},
+  month={September},
+  selected={false}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
+@inproceedings{johnson2020.eusipco,
+  abbr={EUSIPCO},
+  title={Techniques Improving the Robustness of Deep Learning Models for Industrial Sound Analysis},
+  author={Johnson, D. and Grollmisch, S.},
+  abstract={The field of Industrial Sound Analysis (ISA) aims to automatically identify faults in production machinery or manufactured goods by analyzing audio signals. Publications in this field have shown that the surface condition of metal balls and different types of bulk materials (screws, nuts, etc.) sliding down a tube can be classified with a high accuracy using audio signals and deep neural networks. However, these systems suffer from domain shift, or dataset bias, due to minor changes in the recording setup which may easily happen in real-world production lines. This paper aims at finding methods to increase robustness of existing detection systems to domain shift, ideally without the need to record new data or retrain the models. Through five experiments, we implement a convolutional neural network (CNN) for two publicly available ISA datasets and evaluate transfer learning, data normalization and data augmentation as approaches to deal with domain shift. Our results show that while supervised methods with additional labeled data are the best approach, an unsupervised method that implements data augmentation with adaptive normalization is able to improve the performance by a large margin without the need of retraining neural networks.},
+  booktitle = {Proceedings of the 28th European Signal Processing Conference (EUSIPCO)},
+  year={2020},
+  month={August},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@techreport{Grollmisch2020,
+    abbr={DCASE},
+    Author = "Grollmisch, S. and Johnson, D. and AbeBer, J. and Lukashevich, H.",
+    title = "IAEO3 - Combining OpenL3 Embeddings and Interpolation Autoencoder for Anomalous Sound Detection",
+    institution = "DCASE2020 Challenge",
+    year = "2020",
+    month = "July",
+    abstract = "In this technical report, we present our system for task 2 of the IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE2020 Challenge): Unsupervised Detection of Anomalous Sounds for Machine Condition Monitoring. The focus of this task is to detect anomalous industrial machine sounds using an acoustic quality control system, which is only trained with sound samples from the normal (machine) condition. The dataset covers a variety of machines ranging from stable sound sources such as car engines, to transient sounds such as opening and closing valves. Our proposed method combines pre-trained OpenL3 embeddings with the reconstruction error of an interpolation autoencoder using a gaussian mixture model as the final predictor. The optimized model achieved 88.5\% AUC and 76.8\% pAUC on average over all machines and types provided with the development dataset, and outperformed the published baseline by 14.9\% AUC and 17.2\% pAUC.",
+    html={http://dcase.community/challenge2020/task-unsupervised-detection-of-anomalous-sounds-results#Grollmisch2020}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@inproceedings{johnson2020.internoise,
+  abbr={InterNoise},
+  title={Compressed Air Leakage Detection Using Acoustic Emissions with Neural Networks},
+  author={D. {Johnson} and J. {Kirner} and S. {Grollmisch} and J. {Liebetrau}},
+  abstract={Compressed air is utilized in many branches of industry and represents one of the most expensive energy sources of industrial plants. The efficient detection of air pressure leaks goes hand-in-hand with cost savings and increased operational reliability. Some procedures of leakage detection for pressure lines are based upon the analysis of sound emissions. Such solutions use specific ultrasonic emission patterns to detect leakage; alternatively, personnel trained to hear leaks are deployed for detection. In this paper, we evaluate the potential of airborne sound analysis in the audible hearing range for the automated detection of compressed air leakage using artificial neural networks. Therefore, a novel dataset is developed and published. It contains recordings of adjustable leakage from a pneumatic contraption with different pressure levels from several microphones at different distances. Additionally, industrial background noises were applied to simulate real-world sound environments. Using this dataset, a convolutional neural network is trained for leakage detection. The results show that leakage detection by means of airborne sound in the audible range using machine learning techniques is possible and a promising contactless automated detection method.},
+  booktitle = {Proceedings of the 49th Congress and Exposition on Noise Control Engineering (Inter-Noise)},
+  pages={1-12},
+  year={2020},
+  month={August},
+  publisher={International Institute of Noise Control Engineering (I-INCE)},
+  selected={false}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{grollmisch2020.SMSIa,
+  abbr={SMSI},
+  title={Plastic Material Classification using Neural Network based Audio Signal Analysis},
+  author={Grollmisch, S. and Johnson, D. and Krüger, T. and Liebetrau, J.},
+  abstract={Analyzing the acoustic response of products being struck is a potential method to detect material deviations or faults for automated quality control. To evaluate this, we implement a material detection system by equipping an air hockey table with two microphones and plastic pucks 3D printed using different materials. Using this setup, a dataset of the acoustic response of impacts on plastic materials was developed and published. A convolutional neural network trained on this data, achieved high classification accuracy even under noisy conditions demonstrating the potential of this approach.},
+  booktitle = {Proceedings of Sensor and Measurement Science International (SMSI)},
+  pages={337--338},
+  year={2020},
+  month={May},
+  publisher={AMA Association for Sensors and Measurement},
+  doi={10.5162/SMSI2020/P3.11},
+  html={https://www.ama-science.org/proceedings/details/3788},
+  selected={false}
+}
+
+@inproceedings{grollmisch2020.SMSIb,
+  abbr={SMSI},
+  title={Visualizing Neural Network Decisions for Industrial Sound Analysis},
+  author={Grollmisch, S. and Johnson, D. and Liebetrau, J.},
+  abstract={Recent research has shown acoustic quality control using audio signal processing and neural networks to be a viable solution for detecting product faults in noisy factory environments. For industrial partners, it is important to be able to explain the network’s decision making, however, there is limited research on this area in the field of industrial sound analysis (ISA). In this work, we visualize learned patterns of an existing network to gain insights about the decision making process. We show that unwanted biases can be discovered, and thus avoided, using this technique when validating acoustic quality control systems.},
+  booktitle = {Proceedings of Sensor and Measurement Science International (SMSI)},
+  pages={267-268},
+  year={2020},
+  month={May},
+  publisher={AMA Association for Sensors and Measurement},
+  doi={10.5162/SMSI2020/D2.2},
+  html={https://www.ama-science.org/proceedings/details/3753},
+  selected={false}
+}
+
+
+@article{johnson2020.cmj,
+  abbr={CMJ},
+  author={D. {Johnson} and D. {Damian} and G. {Tzanetakis}},
+  abstract={We present research for automatic assessment of pianist hand posture that is intended to help beginning piano students improve their piano-playing technique during practice sessions. To automatically assess a student's hand posture, we propose a system that is able to recognize three categories of postures from a single depth map containing a pianist's hands during performance. This is achieved through a computer vision pipeline that uses machine learning on the depth maps for both hand segmentation and detection of hand posture. First, we segment the left and right hands from the scene captured in the depth map using per-pixel classification. To train the hand-segmentation models, we experiment with two feature descriptors, depth image features and depth context features, that describe the context of individual pixels' neighborhoods. After the hands have been segmented from the depth map, a posture-detection model classifies each hand as one of three possible posture categories: correct posture, low wrists, or flat hands. Two methods are tested for extracting descriptors from the segmented hands, histograms of oriented gradients and histograms of normal vectors. To account for variation in hand size and practice space, detection models are individually built for each student using support vector machines with the extracted descriptors. We validate this approach using a data set that was collected by recording four beginning piano students while performing standard practice exercises. The results presented in this article show the effectiveness of this approach, with depth context features and histograms of normal vectors performing the best.},
+  journal={Computer Music Journal}, 
+  title={Detecting Hand Posture in Piano Playing Using Depth Data}, 
+  year={2020},
+  volume={43},
+  number={1},
+  pages={59-78},
+  doi={10.1162/comj_a_00500}, 
+  html={https://ieeexplore.ieee.org/abstract/document/8952960},
+  selected={true}
+}
+
+@article{johnson2019.vr,
+  abbr={VR},
+  author={D. {Johnson} and D. {Damian} and G. {Tzanetakis}},
+  abstract={Learning music is a challenging process that requires years of practice to master, either with lessons from a professional teacher or through self-teaching. While practicing, students are expected to self-evaluate their performance which may be difficult without timely feedback from a professional. Research into computer-assisted music instrument tutoring (CAMIT) attempts to address this through the use of emerging technologies. In this paper, we study CAMIT for mixed reality (MR) by developing MR:emin, an immersive MR music learning environment for the theremin, an electronic music instrument that is controlled without physical contact. MR:emin integrates a physical theremin with the immersive learning environment. To better understand the effectiveness of such environments, we perform a user study with MR:emin comparing traditional music learning with two virtual learning environments, an immersive one and a non-immersive one. In a between-groups study, 30 participants were trained to play a sequence of notes on the theremin using one of the three training environments. Results of our statistical analysis show that performance error during training is significantly smaller in the immersive MR environment. This does not necessarily lead to improved performance after training; analysis of post-training improvement indicates that immersive training results in the smallest amount of improvement. Participants, however, indicate that the MR:emin environment is more engaging and increases confidence during practice. We discuss potential factors leading to the decrease in learning and provide some environment guidelines to aid in the design of engaging immersive music learning environments.},
+  journal={Virtual Reality}, 
+  title={Evaluating the effectiveness of mixed reality music instrument learning with the theremin}, 
+  year={2019},
+  month={July},
+  volume={24},
+  number={1},
+  pages={303–-317},
+  doi={10.1007/s10055-019-00388-8}, 
+  html={https://link.springer.com/article/10.1007/s10055-019-00388-8},
+  selected={true}
 }
