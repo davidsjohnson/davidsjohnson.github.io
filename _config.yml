@@ -14,7 +14,7 @@ footer_text: >
 
 url:  
 baseurl: 
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -30,14 +30,14 @@ footer_fixed: true
 # Display links to the page with a preview object on social media.
 # To achieve this, change serve_og_meta to true and then provide the URL of the
 # preview image as the value of og_image.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+og_image: assets/img/prof_pic.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: davidsjohnson# your GitHub user name
+github_username: davidsjohnson # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: dsjohnson1 # your LinkedIn user name
 scholar_userid: fortjay81 # your Google Scholar ID
