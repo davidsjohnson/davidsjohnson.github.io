@@ -298,7 +298,7 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
+    color: $grey-color;
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
     margin-top: 2rem;
@@ -309,6 +309,7 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    font-size: 14px;
 
     li {
       margin-bottom: 1rem;
