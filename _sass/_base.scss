@@ -15,6 +15,18 @@ a, table.table a {
   }
 }
 
+blockquote {
+  background: #a6a3a338;
+
+  p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-style: italic;
+  }
+}
+
+
+
 // Math
 
 .equation {
