@@ -20,7 +20,9 @@ Jonas Paletschek (in progress): _Co-Constructing social signs of understanding t
 
 #### Master's
 
-Diana Finner (in progress): _Cross-modal Retrieval of Emotional Vocalizations from Facial Expressions_, Bielefeld University
+Jan Bleimling (in progress): _Identifying Characteristics of Mental Disorder Phenotypes Using Unsupervised Machine Learning_, Bielefeld University
+
+Diana Finner (completed 2024): _Cross-modal Retrieval of Emotional Vocalizations from Facial Expressions_, Bielefeld University
 
 Michele Nalli (completed 2023): _Panson: An interactive sonification framework for real-time applications_, Bielefeld University
 
